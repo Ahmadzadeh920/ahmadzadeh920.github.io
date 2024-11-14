@@ -13,6 +13,54 @@
 <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="css/style.css">
+<style>
+        /* Set the list item to use flexbox */
+        
+        .list-item a{
+
+            width: auto;
+            display: flex
+            
+        }
+
+        .text {
+            text-align: center; /* Center the text under the image */
+            width: 200px;
+        }
+        
+        img {
+            width: 200px; /* Set the width of the image */
+            height: auto; /* Maintain aspect ratio */
+        }
+        
+        /* Remove default list styling */
+        ul {
+            list-style-type: none; /* Remove bullets */
+            padding: 0; /* Remove padding */
+        }
+
+        li {
+            display: flex; /* Ensure that the list item uses flexbox */
+        }
+        .portfolio-list li a {
+
+            display: flex;
+            float: left;
+            margin: 20px;
+        }
+        .portfolio-list li{
+            border: none;
+        }
+        h3, .h3{
+            font-size: 1rem;
+            margin: 5px;
+        }
+        .text span{
+
+            font-size: 0.8rem;  
+        }
+    </style>
+</style>
 </head>
 <body>
 <div class="site-wrap">
@@ -39,32 +87,66 @@
 <h1 class="mb-5">Portfolio</h1>
 <div class="mb-5">
 <ul class="portfolio-list">
+    <li class="list-item">
+       
+            <a href="https://github.com/Ahmadzadeh920/Blog-Customized/blob/main/README.md">
+                <img src="img/blog.jpg" alt="Sample project for considering code">
+                <div class="text">
+                    <h3>Sample project for considering code</h3>
+                    <span>Read me</span>
+                </div>
+            </a>
+            <a href="https://github.com/Ahmadzadeh920/sentiment-analysis/main/README.md">
+                <img src="img/BERT.png" alt="Sentimental Analysis">
+                <div class="text">
+                    <h3>Sentimental Analysis</h3>
+                    <span>Read me</span>
+                </div>
+            </a>
+            
+       
+    </li>
 <li>
-<a href="https://github.com/Ahmadzadeh920/Blog-Customized/blob/main/README.md">
-<img src="img/blog.jpg" alt>
-<div class="text">
-<h3>Customized Authentication in Blog app</h3>
-<span>Read me</span>
-</div>
-</a>
+    <a href="https://github.com/Ahmadzadeh920/Customized-FHIR/main/README.md">
+        <img src="img/FHIR.png" alt>
+        <div class="text">
+            <h3>Customized FHIR </h3>
+            <span>Read me</span>
+        </div>
+    </a>
+    <a href="https://github.com/Ahmadzadeh920/SanaPlus/blob/main/README.md">
+            <img src="img/Sana.png" alt>
+            <div class="text">
+                <h3>Data Analysis Web Service</h3>
+                <span>Read me</span>
+            </div>
+        </a>
 </li>
 <li>
-<a href="https://github.com/Ahmadzadeh920/Farazan_Parvari_Project/blob/master/README.md">
-<img src="img/parenting.jpg" alt>
-<div class="text">
-<h3>Parenting Project </h3>
-<span>Read me</span>
-</div>
-</a>
+    <a href="https://github.com/Ahmadzadeh920/Parenting_Project/main/README.md">
+        <img src="img/parenting.jpg" alt>
+        <div class="text">
+            <h3>Child Behavior Intervention Network (CBIN)</h3>
+            <span>Read me</span>
+        </div>
+    </a>
+    <a href="https://github.com/Ahmadzadeh920/Advanced-Chat-project/main/README.md">
+        <img src="img/live-chat.png" alt>
+        <div class="text">
+            <h3>Customized Chat App</h3>
+            <span>Read me</span>
+        </div>
+    </a>
 </li>
 <li>
-<a href="https://github.com/Ahmadzadeh920/SanaPlus/blob/main/README.md">
-<img src="img/data_analyze.jpg" alt>
-<div class="text">
-<h3>Data Analysis Web Service</h3>
-<span>Read me</span>
-</div>
-</a>
+    <a href="https://github.com/Ahmadzadeh920/Apollo-API/main/README.md">
+        <img src="img/Apollo.io.png" alt>
+        <div class="text">
+            <h3>Django Selenium Apollo</h3>
+            <span>Read me</span>
+        </div>
+    </a>
+
 </li>
 </ul>
 </div>
